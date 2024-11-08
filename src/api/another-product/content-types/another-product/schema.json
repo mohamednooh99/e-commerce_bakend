@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "another_products",
+  "info": {
+    "singularName": "another-product",
+    "pluralName": "another-products",
+    "displayName": "another-product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
