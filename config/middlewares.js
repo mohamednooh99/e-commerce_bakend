@@ -30,9 +30,9 @@ module.exports = [
   "strapi::cors",
   {
     name: 'strapi::cors',
-    config: {
-      enabled: true,
+    config: { 
       origin: ['*'], // Use '*' to allow all origins, or specify your domain(s)
+      methods: ['GET', 'POST', 'PUT', 'DELETE']
     },
   },
   "strapi::poweredBy",
